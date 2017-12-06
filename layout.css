@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+    padding: 10px;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    -o-columns: 1;
+    columns: 1;
+}
+
+@media all and (min-width: 1200px){
+    ul {
+    -webkit-columns: 4;
+    -moz-columns: 4;
+    -o-columns: 4;
+    columns: 4;  
+    }
+    
+}
+
+
+
+@media all and (max-width: 1199px){
+    ul {
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    -o-columns: 2;
+    columns: 2;
+    }
+}    
+
+@media all and (max-width: 600px){
+    ul {
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    -o-columns: 1;
+    columns: 1; 
+    }
+}
+picture {
+    max-width: 90%;
+}
+
+
+ul li:hover, 
+ul li:active{ 
+    transition: transform .8s ease;
+    transform: scaleX( 2 );  /*stretch by 200% in the horizontal*/
+} 
+
+
+
+
+
+/*                         *****IMAGE USE CREDITED TO THOSE BELOW******
+Markus Spiske - https://500px.com/markusspiske (Links to an external site.). 
+
+Yinan Chen - https://500px.com/webmaster85 (Links to an external site.). 
+
+Fahim Akhter - https://500px.com/fahimakhter (Links to an external site.). 
+*/ 
